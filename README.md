@@ -1,3 +1,4 @@
+
 # ATM Management System
 
 A secure and efficient ATM Management System built with Python and MySQL, featuring a modern command-line interface with color-coded output and comprehensive transaction management.
@@ -71,45 +72,43 @@ A secure and efficient ATM Management System built with Python and MySQL, featur
 ## 🚀 Installation
 
 1. **Clone the repository:**
-```bash
+
 git clone https://github.com/yourusername/atm-management-system.git
 cd atm-management-system
-```
 
 2. **Create and activate virtual environment (recommended):**
-```bash
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+
 
 3. **Install required packages:**
-```bash
+
 pip install -r requirements.txt
-```
+
 
 4. **Database Setup:**
    - Create a MySQL database named `atm_management`
    - Run the SQL script in `database/setup.sql`
-   ```bash
+   
    mysql -u root -p < database/setup.sql
-   ```
+   
 
 5. **Environment Configuration:**
    - Copy `.env.example` to `.env`
    - Update the database credentials:
-   ```
+   
    DB_HOST=localhost
    DB_NAME=atm_management
    DB_USER=your_username
    DB_PASSWORD=your_password
-   ```
+   
 
 ## 💻 Usage
 
-1. **Start the application:**
-```bash
+1. **Start the application:
 python src/main.py
-```
+
 
 2. **Main Menu Options:**
    - Login to existing account
@@ -125,7 +124,7 @@ python src/main.py
 
 ## 📁 Project Structure
 
-```
+
 atm-management-system/
 ├── src/
 │   ├── main.py           # Main application entry point
@@ -139,7 +138,7 @@ atm-management-system/
 ├── .env.example         # Environment variables template
 ├── requirements.txt     # Python dependencies
 └── README.md           # Project documentation
-```
+
 
 ## 🔒 Security Implementation
 
@@ -181,3 +180,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Thanks to all contributors
 - Inspired by real-world ATM systems
 - Built for educational purposes 
+
+# atm-management-system
+Secure and modern command-line ATM system with Python and MySQL
